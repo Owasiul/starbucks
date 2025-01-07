@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="w-full">
+      <nav class="md:flex md:items-center md:justify-between p-2 shadow-md">
+        <!-- menu -->
+        <!-- menu left -->
+        <div
+          class="menu-left flex flex-row space-x-6 items-center font-semibold text-xl"
+        >
+          <!-- logo -->
+          <div class="logo w-28">
+            <img src="img/Starbucks-Logo.png" alt="" />
+          </div>
+          <ul class="md:flex md:flex-row md:space-x-6 hidden">
+            <li class="hover:text-emerald-700"><a href="#">MENU</a></li>
+            <li class="hover:text-emerald-700"><a href="#">REWARDS</a></li>
+            <li class="hover:text-emerald-700"><a href="#">GIFT CARDS</a></li>
+          </ul>
+        </div>
+        <!-- menu right -->
+        <div class="menu-right md:mr-12 md:flex md:flex-row hidden">
+          <ul class="md:space-x-8 font-medium">
+            <span class="hover:text-emerald-700 text-lg"
+              ><i class="fa-solid fa-location-dot text-2xl"></i> Find a
+              store</span
+            >
+            <button
+              type="submit"
+              class="sign text-stone-900 text-lg px-8 py-1 rounded-full border border-black bg-none hover:bg-neutral-200"
+            >
+              Sign in
+            </button>
+            <button
+              type="submit"
+              class="join text-md text-white px-6 py-2 rounded-full bg-black hover:bg-gray-800"
+            >
+              Join now
+            </button>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    <main>
+      <!-- hero start -->
+      <div class="hero mt-6 md:flex md:flex-row">
+        <!-- hero left -->
+        <div class="hero-left md:w-1/2">
+          <img class="" src="img/9.jpg" alt="" />
+        </div>
+        <!-- hero right -->
+        <div
+          class="hero-right md:w-1/2 bg-lime-200 flex flex-col justify-center items-center text-center p-2"
+        >
+          <h1 class="text-6xl font-bold mb-8 text-gray-800">
+            The best of winter
+          </h1>
+          <p class="text-gray-800 font-justify font-semibold w-8/12 text-3xl">
+            A new winter menu is here, featuring new Cortado alongside Pistachio
+            beverages and Matcha Latte—now customized to your perfect level of
+            sweetness.
+          </p>
+          <button
+            type="submit"
+            class="order md:mt-8 text-slate-800 font-bold text-lg px-8 py-1 rounded-full border border-black bg-none duration-200 hover:bg-green-200"
+          >
+            Add to order
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

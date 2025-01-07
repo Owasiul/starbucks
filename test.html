@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Starbucks Nav</title>
+</head>
+<body>
+    <header class="w-full bg-white">
+        <nav class="max-w-7xl mx-auto flex items-center justify-between p-4">
+            <!-- Logo -->
+            <div class="w-12 md:w-14">
+                <img src="img/Starbucks-Logo.png" alt="Starbucks" class="w-full">
+            </div>
+
+            <!-- Main Menu -->
+            <div class="hidden md:flex flex-1 justify-between ml-8">
+                <!-- Left Menu -->
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="#" class="text-gray-900 font-semibold hover:text-green-700">MENU</a></li>
+                    <li><a href="#" class="text-gray-900 font-semibold hover:text-green-700">REWARDS</a></li>
+                    <li><a href="#" class="text-gray-900 font-semibold hover:text-green-700">GIFT CARDS</a></li>
+                </ul>
+
+                <!-- Right Menu -->
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="flex items-center text-gray-900 hover:text-green-700">
+                        <i class="fa-solid fa-location-dot mr-2"></i>
+                        <span>Find a store</span>
+                    </a>
+                    <button class="px-4 py-1 rounded-full border border-gray-900 hover:bg-gray-100">
+                        Sign in
+                    </button>
+                    <button class="px-4 py-1 rounded-full bg-black text-white hover:bg-gray-700">
+                        Join now
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
